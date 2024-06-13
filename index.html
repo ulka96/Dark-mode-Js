@@ -8,7 +8,24 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body>
+<body class="h-screen w-full flex items-center">
+
+<div id="mainSection" class="w-[300px] h-[300px] bg-blue-800 m-auto p-11 rounded-lg">
+<p class="text-center mb-5 p-2 font-bold">Subscribe to our time</p>
+
+<form class="text-center flex flex-col">
+<input id="input" type="email" placeholder="enter email" class="text-center p-2 rounded-lg">
+
+<button id="subscribe" class="mt-4 bg-black text-white p-2 rounded-lg font-bold">Subscribe</button>
+</form>
+
+</div>
+
+
+<div id="backdrop" class="w-[300px] h-[300px] bg-red-800 m-auto p-10 hidden flex flex-col justify-center items-center">
+<h4 class="text-center font-bold "> Thanks for subscribing</h4>
+<p id="prg" class="text-center"></p>
+</div>
 
 
 
